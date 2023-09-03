@@ -22,6 +22,26 @@ div.scroll-container {
   }
   input{    
     background: url("http://kodyrabatowe.wp.pl/img/ico/search_gr.png") top left     no-repeat;
-    height:30px;
+    height:45px;
     padding-left:25px;   
+    color: #dfdfdf !important;
     }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+/* .mycart-btn{
+  padding: 20px;
+} */
+.like {
+  font-size: 1.5rem;
+}
+
+div.row.scroll-container {
+  /* background-color: #333; */
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+  scrollbar-width: thin;
+}
